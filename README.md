@@ -1,16 +1,58 @@
-# React + Vite
+# 📸 React Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive image gallery application built using **React** that fetches images dynamically from the **Picsum Photos API**. The app displays images in a grid layout with pagination support for smooth browsing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fetches images dynamically using an external API
+- Pagination with **Next** and **Previous** buttons
+- Loading state handling
+- Responsive and clean UI
+- Clickable images that open the original source
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React**
+- **Axios**
+- **Tailwind CSS**
+- **Picsum Photos API**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 API Used
+https://picsum.photos/v2/list
+
+---
+
+## 📂 Project Structure
+src/
+├─ App.jsx
+├─ main.jsx
+public/
+package.json
+
+
+---
+
+## 🧠 What I Learned
+- API integration using Axios
+- Managing state with `useState`
+- Side effects using `useEffect`
+- Conditional rendering in React
+- Pagination logic
+- Clean component structure
+
+---
+
+## 👩‍💻 Author
+**Indrani**
+
+---
+
+## 📌 Future Improvements
+- Infinite scroll
+- Image search/filter
+- Skeleton loaders
+- Modal preview for images
