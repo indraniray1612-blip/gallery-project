@@ -46,6 +46,11 @@ package.json
 
 ---
 
+## 🌐 Live Demo
+https://gallery-project-2pn9glxmt-indrani-rays-projects.vercel.app/
+
+---
+
 ## 👩‍💻 Author
 **Indrani**
 
